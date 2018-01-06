@@ -114,7 +114,6 @@ public class SQLiteAdapter<TT extends SQLiteOpenHelper> extends SQLiteUtilities<
         return db.insert(tableName, null, values);
     }
 
-
     //update entity
     @Override
     public <T> long update(T obj, String idColumnName) {
