@@ -63,7 +63,6 @@ Database table column names must match with property names.
 
     private static SQLiteHelper dataBaseHelper;
     static final String DATABASE = "activate";
-    static final String TABLE = "person";
     static final int DATABASE_VERSION = 1;
 
     static String createTable2 = "CREATE TABLE " + "material" + " ( " + "materialId" + " INTEGER PRIMARY KEY AUTOINCREMENT, "
